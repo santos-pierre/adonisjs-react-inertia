@@ -9,4 +9,8 @@
 
 import router from '@adonisjs/core/services/router'
 
-router.on('/').render('pages/home')
+router.get('/', async ({ inertia }) => {
+  return inertia.render('Home', {
+    message: 'Coucou planète',
+  })
+})
