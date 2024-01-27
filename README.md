@@ -2,7 +2,7 @@
 
 ## Issue
 
-I've been attempting to implement Inertia with React in my project, but I've encountered mùutliple bug but I am facing one that I can't resolve. When I navigate to my page I have a blank page and this error in my console
+I've been working on integrating Inertia with React in my project and have encountered several issues. However, there's one particular problem I'm struggling with. When I navigate to my page, it just displays a blank screen, and I receive the following error in my console:
 
 ```
 Home.jsx:1 Uncaught Error: @vitejs/plugin-react can't detect preamble. Something is wrong. See https://github.com/vitejs/vite-plugin-react/pull/11#discussion_r430879201
