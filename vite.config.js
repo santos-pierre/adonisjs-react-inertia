@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import adonisjs from '@adonisjs/vite/client'
-import react from '@vitejs/plugin-react'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [
@@ -16,6 +16,6 @@ export default defineConfig({
        */
       reload: ['resources/views/**/*.edge'],
     }),
-    react(),
+    vue(),
   ],
 })
