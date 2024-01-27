@@ -20,10 +20,3 @@ pnpm i @adonisjs/inertia
 ```bash
 node ace configure @adonisjs/inertia
 ```
-
-3. React Packages Installation
-
-```bash
-pnpm add -D @vitejs/plugin-react @types/react @types/react-dom
-pnpm add @inertiajs/react react react-dom
-```
