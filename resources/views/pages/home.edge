@@ -4,16 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> AdonisJS - A fully featured web framework for Node.js </title>
-  {{-- https://github.com/vitejs/vite/issues/1984#issuecomment-778289660 --}}
-  <script type="module">
-    import RefreshRuntime from "/@react-refresh"
-    RefreshRuntime.injectIntoGlobalHook(window)
-    window.$RefreshReg$ = () => {}
-    window.$RefreshSig$ = () => (type) => type
-    window.__vite_plugin_react_preamble_installed__ = true
-  </script>
+  @viteReactRefresh()
   @vite(['resources/js/app.jsx'])
-  @inertiaHead()
+  @inertiaHead
 </head>
 <body>
   @inertia()
